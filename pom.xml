@@ -13,8 +13,13 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>PracticaVacunas</name>
 	<description>Proyecto sobre las vacunas contra el COVID-19</description>
-	<properties>
+	<!-- <properties> 
 		<java.version>11</java.version>
+	</properties> -->
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>12</maven.compiler.source>
+		<maven.compiler.target>12</maven.compiler.target>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -34,7 +39,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
+			<!-- <scope>test</scope> -->
 		</dependency>
 	</dependencies>
 
