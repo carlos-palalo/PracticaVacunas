@@ -18,7 +18,7 @@ public class PracticaVacunasApplication {
 			}
 		};
 	}
-
+	
 	public static void main(String[] args) {
 		SpringApplication.run(PracticaVacunasApplication.class, args);
 	}
