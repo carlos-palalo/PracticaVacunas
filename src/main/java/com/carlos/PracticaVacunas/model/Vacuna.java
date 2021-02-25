@@ -13,24 +13,24 @@ public class Vacuna {
 	private String comunidad;
 	private int pzifer;
 	private int moderna;
-	private int dosis_Administradas;
-	private int pauta_Completa;
-	private Date fecha_Ult_Vacuna;
+	private int dosisAdministradas;
+	private int pautaCompleta;
+	private Date fechaUltVacuna;
 
 	public Vacuna() {
 
 	}
 
-	public Vacuna(int id, String comunidad, int pzifer, int moderna, int dosis_Administradas, int pauta_Completa,
-			Date fecha_Ult_Vacuna) {
+	public Vacuna(int id, String comunidad, int pzifer, int moderna, int dosisAdministradas, int pautaCompleta,
+			Date fechaUltVacuna) {
 		super();
 		this.id = id;
 		this.comunidad = comunidad;
 		this.pzifer = pzifer;
 		this.moderna = moderna;
-		this.dosis_Administradas = dosis_Administradas;
-		this.pauta_Completa = pauta_Completa;
-		this.fecha_Ult_Vacuna = fecha_Ult_Vacuna;
+		this.dosisAdministradas = dosisAdministradas;
+		this.pautaCompleta = pautaCompleta;
+		this.fechaUltVacuna = fechaUltVacuna;
 	}
 
 	public int getId() {
@@ -65,28 +65,28 @@ public class Vacuna {
 		this.moderna = moderna;
 	}
 
-	public int getdosis_Administradas() {
-		return dosis_Administradas;
+	public int getdosisAdministradas() {
+		return dosisAdministradas;
 	}
 
-	public void setdosis_Administradas(int dosis_Administradas) {
-		this.dosis_Administradas = dosis_Administradas;
+	public void setdosisAdministradas(int dosisAdministradas) {
+		this.dosisAdministradas = dosisAdministradas;
 	}
 
-	public int getpauta_Completa() {
-		return pauta_Completa;
+	public int getpautaCompleta() {
+		return pautaCompleta;
 	}
 
-	public void setpauta_Completa(int pauta_Completa) {
-		this.pauta_Completa = pauta_Completa;
+	public void setpautaCompleta(int pautaCompleta) {
+		this.pautaCompleta = pautaCompleta;
 	}
 
-	public Date getfecha_Ult_Vacuna() {
-		return fecha_Ult_Vacuna;
+	public Date getfechaUltVacuna() {
+		return fechaUltVacuna;
 	}
 
-	public void setfecha_Ult_Vacuna(Date fecha_Ult_Vacuna) {
-		this.fecha_Ult_Vacuna = fecha_Ult_Vacuna;
+	public void setfechaUltVacuna(Date fechaUltVacuna) {
+		this.fechaUltVacuna = fechaUltVacuna;
 	}
 
 }
