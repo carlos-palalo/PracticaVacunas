@@ -10,7 +10,7 @@ pauta_Completa 		INT NOT NULL,
 fecha_Ult_Vacuna 		DATE NOT NULL
 );
 
-INSERT INTO VACUNAS(comunidad, pzifer, moderna, dosis_administradas, pauta_Completa, fecha_Ult_Vacuna) VALUES
+INSERT INTO vacunas(comunidad, pzifer, moderna, dosis_administradas, pauta_Completa, fecha_Ult_Vacuna) VALUES
 ("Andalucía", 244620, 6800, 194101, 15193, "2021-01-20"),
 ("Aragón",41265,1200,38170,1731,"2021-01-21"),
 ("Asturias",44195,1200,40011,5664,"2021-01-21"),
