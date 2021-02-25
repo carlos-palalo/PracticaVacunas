@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @SpringBootApplication
 public class PracticaVacunasApplication {
-	
+
 	@Bean
 	public WebMvcConfigurer corsConfigurer() {
 		return new WebMvcConfigurer() {
@@ -18,7 +18,7 @@ public class PracticaVacunasApplication {
 			}
 		};
 	}
-	
+
 	public static void main(String[] args) {
 		SpringApplication.run(PracticaVacunasApplication.class, args);
 	}
