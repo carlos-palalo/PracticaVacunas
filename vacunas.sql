@@ -1,7 +1,3 @@
-DROP DATABASE IF EXISTS `heroku_9bdf1869ac0cc16`;
-CREATE DATABASE IF NOT EXISTS `heroku_9bdf1869ac0cc16`
-USE `heroku_9bdf1869ac0cc16`;
-
 DROP TABLE IF EXISTS vacunas;
 
 CREATE TABLE vacunas(
